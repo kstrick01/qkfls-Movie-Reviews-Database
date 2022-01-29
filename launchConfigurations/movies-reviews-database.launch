@@ -1,0 +1,16 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.us-east.cf.cloud.ibm.com",
+      "Org": "imjsmaking1",
+      "Space": "dev"
+    },
+    "Name": "movies-reviews-database-aeb",
+    "Instrumentation": {
+      "domain": "us-east.mybluemix.net"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
